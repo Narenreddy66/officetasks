@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mr-auto {
+    margin-left: auto;
+}
+
+.nav-link:hover {
+    color: #ef5350 !important;
+}
+
+.position-sticky {
+    z-index: 999;
+    background-color: #f7fafd;
+}
+
+h1,
+h4 {
+    color: #0e314c !important;
+
+}
+
+
+.bar {
+    height: 3px;
+    width: 90px;
+    background: #ed4d4a;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 0;
+}
+
+li {
+
+    font-size: 16px;
+
+}
+
+.cardhover:hover {
+    transition: 0.5s !important;
+    transform: translateY(-10px) !important;
+    box-shadow: 0 4px 20px 0 rgba(143, 227, 231, 0.14), 0 7px 10px -5px rgba(251, 251, 252, 0.76);
+}
+
+.bgcolor {
+    background-color: #f7fafd;
+}
+
+.btn:hover {
+    background-color: #0e314c !important;
+    color: white;
+}
+
+.cardhover:hover li {
+
+    color: #ed4d4a;
+}
+
+.service-box img {
+    height: 65px;
+    margin: 0 auto 10px;
+    display: block;
+
+    opacity: 0.8;
+}
+
+.fontsize-list {
+    font-size: 14px;
+}
+
+.ourcolor {
+    color: #0e314c;
+}
+
+.ourcolor1:hover {
+    color: #ed4d4a;
+    transition: 0.5s !important;
+    transform: translatex(10px) !important;
+}
+
+.rotateme {
+    -webkit-animation-name: rotateme;
+    animation-name: rotateme;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    width: -webkit-fill-available;
+}
+
+@keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.img2 {
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.relativeposition {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fadeINup {
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+
+
+.mixed {
+    mix-blend-mode: exclusion;
+}
+
+.imgoutside:hover {
+
+    box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
+}
+
+.ourcolor1 {
+    list-style: none;
+    line-height: 40px !important;
+    font-size: 15px;
+    color: #222;
+}
+
+.ourcolor2 {
+    list-style: none;
+    color: #222;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.bg-image {
+    background-image: url(./images/building-layer.png);
+    height: 100px;
+    width: 100%;
+}

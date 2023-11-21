@@ -1,0 +1,236 @@
+.img1 {
+    height: 72px;
+    width: 91px;
+    margin-left: 271px;
+}
+
+.nav {
+    display: inline;
+    padding: 20px;
+
+}
+
+body {
+    background-color: #F6F8FA;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    margin-right: 590px;
+    color: #bfbfbf;
+}
+
+.optiontags {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 7px 10px 7px 23px;
+}
+
+.chef1 {
+
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./1306068.jpg);
+    background-position: center;
+}
+
+.chefmain {
+    border-radius: 5px;
+
+    height: 700px;
+    box-shadow: 0px 0px 5px 3px #00000059;
+    width: 71%;
+    margin-left: 274px;
+    background-color: rgb(255, 255, 255);
+}
+
+.img2 {
+    height: 231px;
+    width: 231px;
+    margin: 273px 30px 0px 8px;
+}
+
+.button1 {
+    background-color: white;
+    color: rgb(38, 141, 250);
+     border-radius: 5px;
+    padding: 8px;
+    margin: 450px 51px 0px 0px;
+
+}
+
+
+
+.button2 {
+    background-color: rgb(0, 124, 249);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 18px 6px 15px;
+    margin: 450px 51px 0px 0px;
+}
+
+
+.header {
+    margin: 397px 0px 0px -240px;
+    line-height: 1px;
+}
+
+.gallery {
+    border-radius: 5px;
+
+
+    height: 318px;
+    box-shadow: 0px 0px 5px 3px #00000059;
+    width: 71%;
+    margin-left: 274px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 45px;
+}
+
+.img3 {
+    height: 100px;
+    width: 147px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 1px 0px 4px;
+}
+
+.gal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lorem {
+    padding: 0px 9px 0px 11px;
+}
+
+.gal2 {
+    margin-left: 10px;
+}
+
+.gal3 {
+    margin: 20px;
+}
+
+.vedio {
+    border-radius: 5px;
+
+
+    height: 285px;
+    box-shadow: 0px 0px 5px 3px #00000059;
+    width: 71%;
+    margin-left: 274px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 45px;
+}
+
+.vdflex {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 9px;
+}
+
+.img4 {
+    height: 115px;
+    width: 216px;
+}
+
+.love {
+    color: #007CF9;
+}
+
+.feedback {
+    border-radius: 5px;
+
+
+    height: 300px;
+    box-shadow: 0px 0px 5px 3px #00000059;
+    width: 71%;
+    margin-left: 274px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 45px;
+    line-height: 16px;
+}
+
+.space {
+    margin-left: 16px;
+}
+
+.feed {
+
+    padding-top: 15px;
+}
+
+.footer {
+    background-color: #D7E0ED;
+    height: 300px;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.page {
+    color: #F26AA1;
+    margin: 38px 35px 12px 38px;
+}
+
+ul {
+    list-style: none;
+}
+
+.about {
+    padding-left: 10px;
+}
+
+.fa-twitter {
+    color: gray;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: gray;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    color: gray;
+    text-decoration: none;
+}
+
+.fa-google {
+    color: gray;
+    text-decoration: none;
+}
+
+.icon {
+    padding: 24px 224px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    background: #D7E0ED;
+}
+fa-user-circle-o{
+    font-size: 40px;
+}
+.checked{
+    color: orange;
+}

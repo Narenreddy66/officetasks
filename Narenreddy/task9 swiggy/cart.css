@@ -1,0 +1,202 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img1 {
+    height: 69px;
+    width: 127px;
+}
+
+.leftheader {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.rightheader {
+    display: flex;
+    justify-content: space-around;
+    color: #282c3f;
+}
+
+.ri-user-fill:before {
+    content: "\f14f";
+    font-size: 26px;
+    position: relative;
+    top: 19px;
+    padding-left: 50px;
+}
+
+.ri-question-fill:before {
+    content: "\ef78";
+    font-size: 30px;
+    top: 19px;
+    position: relative;
+
+}
+
+.img2 {
+
+    width: 271px;
+    height: 256px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.image {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.button {
+    height: 42px;
+    width: 101%;
+    background: orange;
+    color: white;
+    border: none;
+    margin-top: 20px;
+
+}
+
+p {
+    margin: 0px;
+    margin-left: 49px;
+
+    margin-top: -15px;
+    font-size: 13px;
+
+}
+
+h4 {
+    margin-left: 49px;
+}
+
+.cartempty {
+    background-color: white;
+    height: 152px;
+    width: 51%;
+    position: relative;
+    left: 430px;
+    top: 34px;
+
+}
+
+.button2 {
+    height: 37px;
+    width: 100px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+    left: 69px;
+    border: none;
+
+}
+.oops{
+    padding: 25px;
+}
+.account{
+    background-color: white;
+    height: 160px;
+    width: 51%;
+    position: relative;
+    left: 430px;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.memamaparri{
+    background-color: #e9ecee;
+    height: 60pc;
+}
+.button3{
+    color: green;
+    height: 44px;
+    font-size: 13px;
+    border: 1px solid #15b815;
+    color: #15b815;
+}
+.button4{
+    color: green;
+    height: 44px;
+    font-size: 13px;
+    border: 1px solid #15b815;
+    color: white;
+    background-color: #15b815;
+    padding: 6px 11px;
+}
+.butt{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.marginleft{
+    margin-left: 40px;
+}
+.img5{
+    height: 69px;
+    width: 127px;
+    margin-top: 34px;
+    margin-right: 100px;
+}
+.deliveryaddress{
+    background-color: white;
+    height: 90px;
+    width: 51%;
+    position: relative;
+    top: 100px;
+    left: 431px;
+}
+.delivery{
+    padding: 31px 0px 0px 31px;
+    color: gray;
+
+}
+.payment{
+    background-color: white;
+    height: 90px;
+    width: 51%;
+    position: relative;
+    top: 100px;
+    left: 431px;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: #171a29;
+    color: #F5F5F5;
+}
+.footer{
+    display:flex ;
+    justify-content: space-evenly;
+    line-height: 35px;
+}
+.blackcolor{
+    color: gray;
+}
+li{
+    list-style: none;
+}
+.positionleft{
+    
+        float: right;
+        position: relative;
+        bottom: 520px;
+        right: 170px;
+}
+.good{
+    margin: 10px;
+}
+.empty{
+color: grey;
+font-size: 35px;
+}

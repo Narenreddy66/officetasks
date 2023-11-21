@@ -1,0 +1,205 @@
+.logo{
+    height: 100px;
+    width: 100px;
+    padding-left: 320px;
+}
+.navbar{
+    text-align: right;
+    display: inline;
+    margin: 17px 452px;
+}
+
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+    }
+    li{
+        display: inline;
+     } 
+    a{
+        padding: 20px;
+    
+    }
+    .chef1{
+        background-image: url(./johnathan-macedo-4NQEvxW2_4w-unsplash.jpg);
+        background-repeat: no-repeat;
+        height: 400px;
+        background-size:cover;
+        color: white;
+        padding: 30px 0px 0px 531px;
+        background-position: center;
+        opacity: 0.5;
+    }
+   .optiontags{
+        background-color: rgb(51,51,51); 
+        color: white;
+    }
+    .input{
+        justify-content: space-between;
+        background-color: white;
+        display: flex;
+        margin: 21px;
+        padding: 32px;
+        width: 522px;
+        border-radius: 34px;
+
+    }
+    .button{
+        background-color: #5FC5DE;
+    }
+    .mainchef2{
+        display: flex;
+        background-color: #E6E6E6;
+    }
+    .img2{
+        width: 134%;
+        height: 402px;
+        margin: 6px 0px 0px 1px;
+    }
+    .header{
+        margin: 107px 262px;
+    }
+    .button2{
+        background-color: #5FC5DE;
+        padding: 11px 25px;
+    }
+    .mainchef3{
+        display: flex;
+        justify-content: space-between;
+        padding: 39px 213px 5px 205px;
+    }
+    
+    .img3{
+
+height: 263px;
+    width: 294px;
+    }
+    
+    
+.justify-content-center{
+    justify-content: center !important;
+    display: flex !important;
+}
+.position-absolute{
+    position: absolute !important;
+    bottom: 450px !important;
+}
+.title{
+   
+   margin-bottom: -26px;
+   margin-left: 201px;
+}
+.blog{
+    
+    margin-bottom: -23px;
+    margin-left: 196px;
+}
+.mainchef4{
+    display: flex;
+    justify-content: space-between;
+}
+.img4{
+     height: 348px;
+    width: 408px;
+}
+.ourchef{
+    box-shadow:0px 0px 5px 3px #00000059 ;
+} 
+.logo1{
+    height: 59px;
+    width: 76px;
+    margin: 6px 0px 0px 200px;
+} 
+.checked{
+    color: orange;
+    padding: 5px;
+    
+}
+.list1{
+    display: block;
+    margin-left: 189px;
+}
+.list2{
+    display: block;
+    margin-left: 189px;
+}
+.list3{
+    display: block;
+    margin-left: 189px;
+}
+.list4{
+    display: block;
+    margin-left: 189px;
+}
+.list{
+    display: flex;
+    background-color: #F7FAFF;
+    line-height: 30px;
+    color: #BEC5D1;
+}
+/* .line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 5px 16px;
+    text-align: center; */
+
+.foot_line{
+    border-top: 1px solid ;
+    width: 78%;
+    margin-left: 197px;
+    color: gray;
+    
+}
+.foot{
+    margin-left: 200px;
+    color: gray;
+}
+.cook{
+    margin-left: 10px;
+}
+.c{
+    margin-left: 181px;
+    color: black;
+
+}
+.d{
+margin-left: 181px;
+color: black;
+}
+.r{
+    margin-left: 181px;
+    color: black;
+}
+.f{
+    margin-left: 181px;
+    color: black;
+}
+.end{
+    display: flex;
+}
+.icon{
+    margin-left: 952px;
+}
+.fa-twitter{
+    color: gray;
+    text-decoration: none;
+}
+.fa-facebook{
+    color: gray;
+    text-decoration: none;
+}
+.fa-instagram{
+    color: gray;
+    text-decoration: none;
+}
+.fa-google{
+    color: gray;
+    text-decoration: none;
+}
+.john{
+    padding: 10px;
+}
+

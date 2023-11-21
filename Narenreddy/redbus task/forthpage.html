@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./forthpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body> 
+    <!-- navbar -->
+    <nav class="navbar position-sticky">
+    <div class="container">
+        <div class="d-flex justify-content-around">
+            <img src="./imgesall/logo2.svg" class="w-0">
+            <button class="border-0 bg-color text-white">Bus tickets</button>
+            <button class="border-0 bg-color text-white">ryde</button>
+            <button class="border-0 bg-color text-white">Railconnect</button>
+        </div>
+        <div class="d-flex">
+            <div class="dropdown focus-btn1">
+                <button class="btn text-white focus-btn dropdown-toggle border-0" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Manage Booking
+
+                </button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">My Trips</button></li>
+                    <li><button class="dropdown-item" type="button">Cancallation</button></li>
+
+                </ul>
+            </div>
+            <div class="dropdown focus-btn">
+                <button class="btn text-white focus-btn dropdown-toggle border-0" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="ri-user-line"></i>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Sign In/Sign Off</button></li>
+                    <li><button class="dropdown-item" type="button">Offers</button></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- navbar end  -->
+<div class="bg-dark">
+<div class="container">
+    <div class="d-flex p-2">
+        <a class="text-color"href="./startpage.html">HOME</a>
+    <i class="ri-arrow-right-s-line"></i>
+    <p class="text-white">Trains</p>
+    </div>
+    
+</div>
+</div>
+<div class="bg-img">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h1 class="text-center text-white">Train Ticket Booking
+            </h1>
+            <img src="./imgesall/rails_logo_white.svg">
+        </div>
+        <div class="d-flex justify-content-center">
+            <img src="./imgesall/irctc_logo_pnr.svg">
+            <h2 class="text-white">Authorised by
+                IRCTC</h2>
+        </div>
+        <div class="d-flex justify-content-center mt-3 gap-5">
+            <button class="btn-defult border-0">Book Train Tickets</button>
+            <button class="btn-defult border-0">Check Pnr Status</button>
+        </div>
+        <!-- serac bueses div  -->
+        <div class="row mt-4">
+            
+            <div class="col-12">
+                <div class="card border-danger  card-height d-flex">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex borderright">
+                            <i class="ri-bus-line"></i>
+                            <label for="name"></label>
+                            <input type="text" class="form-control focus-0 border-0 focus-btn1" id="examplename"
+                                placeholder="From">
+
+
+                        </div>
+
+                        <div class="d-flex borderright">
+                            <i class="ri-bus-line"></i>
+                            <label for="name"></label>
+                            <input type="text" class="form-control border-0 focus-btn1" id="examplename" placeholder="To">
+                        </div>
+                        <div class="d-flex border-0">
+                            <i class="ri-calendar-line"></i>
+                            <label for="name"></label>
+                            <input type="date" class="form-control border-0 focus-btn1" id="examplename" placeholder="Date">
+                        </div>
+                        <hr>
+                        <div>
+                            <button class="bg-color1 w-100 border-0">Search buses</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        <div class="mt-5">
+            <img src="./imgesall/NOFEE_DESKTOP.svg" class="img-center">
+        </div>
+    </div>
+    <!-- start of discountdiv  -->
+    <div class="text-center mt-3">
+        <h2>Offers For You</h2>
+    </div>
+    <div class="container">
+
+    <div class="row">
+        <div class="col-4 rounded">
+            <div class="card background">
+                <div class="d-flex gap-4 p-2 ">
+                    <img src="./imgesall/redbull.png" class="img-circle">
+
+                    <div>
+                        <p>Buses</p>
+                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                        <p>Valid till 31 Aug</p>
+                        <P class="border-dashed">Flat 50% </P>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-4 rounded">
+            <div class="card background3">
+                <div class="d-flex gap-4 p-2 ">
+                    <img src="./imgesall/tile-80X80.png" class="img-circle">
+
+                    <div>
+                        <p>Buses</p>
+                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                        <p>Valid till 31 Aug</p>
+                        <P class="border-dashed">Flat 50% </P>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-4 rounded">
+            <div class="card background1">
+                <div class="d-flex gap-4 p-2 ">
+                    <img src="./imgesall/frredom.png" class="img-circle">
+
+                    <div>
+                        <p>Buses</p>
+                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                        <p>Valid till 31 Aug</p>
+                        <P class="border-dashed">Flat 50% </P>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</div>
+<!-- end of discount div  -->
+<div class="bg-color2">
+    <div class="container">
+        <h3 class="text-center color1">IRCTC authorised Ticket Booking</h3>
+        <h6 class="text-muted font-size ml-3">Book IRCTC Train Tickets on redRail and enjoy simple & superfast booking process with no service fee + no payment gateway charge.</h6>
+    <div class="mt-5 d-flex">
+        <div class="d-flex ">
+            <div> <img src="./imgesall/partner.png" class="w-50"></div>
+           <div><h4>Authorised IRCTC Partner</h4> 
+            <p>Book your train tickets <br>with confidence</p></div>
+            
+        </div>
+<div class="d-flex gap-3 ">
+    <div> <img src="./imgesall/partner.png" class="w-50"></div>
+   <div><h4>Authorised IRCTC Partner</h4> 
+    <p>Book your train tickets <br>with confidence</p></div>
+    
+</div>
+<div class="d-flex ">
+    <div> <img src="./imgesall/partner.png" class="w-50"></div>
+   <div><h4>Authorised IRCTC Partner</h4> 
+    <p>Book your train tickets <br>with confidence</p></div>
+    
+</div>
+    </div>
+    
+    </div>
+    
+</div>
+<h3 class="text-center mt-3">Download App</h3>
+<!-- div with diff images and steps  -->
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <button class="mt-3 btn-main ">Step : 1
+                Visit redRail and Choose Journey Date</button>
+            <button class="mt-3 btn-main ">Step : 2
+                Select Class and Look for Available Trains</button>
+            <button class="mt-3 btn-main ">Step : 3
+                Add IRCTC User ID and Passenger Information</button>
+            <button class="mt-3 btn-main ">Step : 4
+                Choose a Method for Payment</button>
+            <button class="mt-3 btn-main ">Step : 5
+                Enter IRCTC Password to Confirm Booking</button>
+        </div>
+        <div class="col-6">
+            <img src="./imgesall/make_pay.png">
+        </div>
+    </div>
+</div>
+<!-- q and ansewre start div -->
+<div class="container mt-5">
+    
+    <h3 class="mt-4 color2">How can I complete an online train ticket booking with redRails?</h3>
+    <p class="text-muted">
+        Booking a train ticket online can be completed with ease in just a few simple steps. If you’re on the app, first click on the “redRails” icon that’s displayed on your screen. Enter the source and destination locations along with the date of travel. Once done, a list of trains operating on your<br> route will be displayed. Select the train and class of your choice, select the<br> boarding and destination stations, enter the details of the passenger and complete the payment. You can download the<br> ticket and the invoice once your payment has been processed.
+    </p>
+    <hr class="solid-line">
+    <h3 class="mt-4 color2">Do I need to make an account to make an IRCTC train ticket booking online?
+    </h3>
+    <p class="text-muted">Yes, and this has its advantages. This would help expedite the booking process when you have to enter details about the passenger and while completing <br>the payment process.</p>
+<hr>
+
+<h3 class="mt-4 color2">How can I complete an online train ticket booking with redRails?</h3>
+<p class="text-muted">
+    Booking a train ticket online can be completed with ease in just a few simple steps. If you’re on the app, first click on the “redRails” icon that’s displayed on your screen. Enter the source and destination locations along with the date of travel. Once done, a list of trains operating on your<br> route will be displayed. Select the train and class of your choice, select the<br> boarding and destination stations, enter the details of the passenger and complete the payment. You can download the<br> ticket and the invoice once your payment has been processed.
+</p>
+<hr class="solid-line">
+<h3 class="mt-4 color2">Do I need to make an account to make an IRCTC train ticket booking online?
+</h3>
+<p class="text-muted">Yes, and this has its advantages. This would help expedite the booking process when you have to enter details about the passenger and while completing <br>the payment process.</p>
+<hr>
+
+<h3 class="mt-4 color2">How can I complete an online train ticket booking with redRails?</h3>
+<p class="text-muted">
+    Booking a train ticket online can be completed with ease in just a few simple steps. If you’re on the app, first click on the “redRails” icon that’s displayed on your screen. Enter the source and destination locations along with the date of travel. Once done, a list of trains operating on your<br> route will be displayed. Select the train and class of your choice, select the<br> boarding and destination stations, enter the details of the passenger and complete the payment. You can download the<br> ticket and the invoice once your payment has been processed.
+</p>
+<hr class="solid-line">
+<h3 class="mt-4 color2">Do I need to make an account to make an IRCTC train ticket booking online?
+</h3>
+<p class="text-muted">Yes, and this has its advantages. This would help expedite the booking process when you have to enter details about the passenger and while completing <br>the payment process.</p>
+<hr>
+
+<h3 class="mt-4 color2">How can I complete an online train ticket booking with redRails?</h3>
+<p class="text-muted">
+    Booking a train ticket online can be completed with ease in just a few simple steps. If you’re on the app, first click on the “redRails” icon that’s displayed on your screen. Enter the source and destination locations along with the date of travel. Once done, a list of trains operating on your<br> route will be displayed. Select the train and class of your choice, select the<br> boarding and destination stations, enter the details of the passenger and complete the payment. You can download the<br> ticket and the invoice once your payment has been processed.
+</p>
+<hr class="solid-line">
+<h3 class="mt-4 color2">Do I need to make an account to make an IRCTC train ticket booking online?
+</h3>
+<p class="text-muted">Yes, and this has its advantages. This would help expedite the booking process when you have to enter details about the passenger and while completing <br>the payment process.</p>
+<hr>
+</div>
+<!-- end q&a div  -->
+
+
+
+</body>
+</html>

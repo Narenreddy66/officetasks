@@ -1,0 +1,33 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif !important;
+    cursor: pointer;
+}
+input[type="search"]:focus-visible,input[type="search"]:focus-visible{
+    
+    outline: none !important;
+} 
+.input-btn{
+    border: 3px solid orangered;
+    border-radius: 20px;
+}
+.btn-default {
+    border: 3px solid orangered;
+    background-color: orangered;
+   }
+.img1{
+    height: 22px;
+    width: 38%;
+}
+.card{
+    margin: 0 10px 0 10px;
+}
+.nav-pills .nav-link:hover{
+    color: orangered;
+}
+.nav-pills .nav-link{
+    color: grey;
+  }
+  .nav-pills .nav-link.active{
+    background-color:orangered !important;
+  }

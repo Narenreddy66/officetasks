@@ -1,0 +1,156 @@
+.img1{
+    height: 60px;
+    width: 78%;
+}
+ .main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #Ffffff;
+    align-items: center;
+} 
+body{
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+.dashboard{
+    display: flex;
+    position: relative;
+    right: 300px;
+    border: none;
+}
+.button11{
+    border: none;
+    padding: 15px 20px 13px 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 19px;
+}
+.button2{
+    border: none;
+    background-color:#75C250;
+    color: #Ffffff;
+    font-size: 19px;
+
+}
+.button3{
+    border: none;
+    padding: 15px 20px 13px 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 19px;
+}
+.bookingproperty{
+    height: 880px;
+    width: 90%;
+    background-color: #Ffffff;
+    margin-left: 112PX;
+}
+.pax{
+    display: flex;
+}
+.roomtype{
+    display: flex;
+}
+.name{
+    display: flex;
+}   
+.mail{
+    display: flex;
+}
+.arraival{
+    display: flex;
+}
+.specific{
+    display: flex;
+}
+.padding{
+    height: 30px;
+    width: 260px;
+    border-radius: 3px;
+    margin-left: 20px;
+    border: 1px solid rgb(217,217,224);
+    padding: 11px 5px 5px 11px;
+}
+
+.select{
+    height: 40px;
+    width: 260px;
+    border-radius: 3px;
+    margin-left: 20px;
+    border: 1px solid rgb(217,217,224);
+    padding: 5px 11px 5px 11px;
+}
+
+
+.padding1{
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    margin-left: 20px;
+    border: 1px solid rgb(217,217,224);
+    
+}
+.position{
+    display: flex;
+    position: relative;
+    left: 432px;
+}
+.depature{
+    position: relative;
+    left: 431px;
+}
+.phoneno{
+    position: relative;
+    left: 431px;
+}
+.lastname{
+    position: relative;
+    left: 431px;
+}
+.pickup{
+    position: relative;
+    
+    left: 431px;
+}
+h4{
+    margin-left: 20px;
+}
+h3{
+    margin: 5px 0px;
+ } 
+.button1{
+    padding: 6px 28px;
+    color: rgb(0, 167, 78);
+    border: 1px solid rgb(0, 167, 78); 
+    border-radius: 3px;
+}
+.button2{
+    padding: 3px 23px;
+    background-color: rgb(0, 167, 78);
+    border: none; 
+    border-radius: 3px;
+    color: white;
+}
+.buttonmain{
+    position: relative;
+    left: 291px;
+    top: 33px
+}
+.icon{
+    display: flex;
+    margin-left: 109px;
+}
+.ri-arrow-left-circle-fill{
+    margin-top: 6px;
+    color:#75C250;
+    /* color: #Ffffff; */
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: #Ffffff;
+}
+.button4{
+    padding: 9px 58px 9px 74px;
+    font-size: 15px;
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    cursor: pointer;
+}
+.navbar{
+    background-color: #d84e55!important;
+    height: 64px;
+   position: fixed !important;
+   top: 0 !important;
+   z-index: 20 !important;
+    width: 100%;
+}
+.bg-color{
+    background-color: #d84e55!important;
+}
+.focus-btn{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.card{
+   
+    box-shadow: 2px 2px 2px -2px;
+}
+ .card:hover{
+    animation: bounce 1s !important;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,.75);
+transition: all 0.5s;
+}

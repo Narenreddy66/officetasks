@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./startpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav header -->
+    <nav class="navbar position-sticky bg-white top-0 ">
+        <div class="container">
+            <img src="./imgesall/rdc-redbus-logo.svg" class="w-0">
+            <div class="d-flex justify-content-between">
+                <button class="border-0 bg-white hover">
+                    <img src="./imgesall/rdc-redbus-logo.svg" class="w-50 ">
+                    <p class="text-muted">Bus Tickets</p>
+                </button>
+                <button class="border-0 bg-white hover">
+                    <img src="./imgesall/ryde_vertical.svg" class="w-50 ">
+                    <p class="text-muted"> <a href="./secondpage.html">Carrentals</a></p>
+                </button>
+                <button class="border-0  bg-white hover">
+                    <img src="./imgesall/rail_vertical.svg" class="w-50 ">
+                    <p class="text-muted"><a href="./forthpage.html">Rail Tickets</a></p>
+                </button>
+            </div>
+            <div class="d-flex">
+                <button class="border-0 bg-white d-flex">
+                    <i class="ri-question-line"></i>
+                    <p class="text-muted mt-2">Help</p>
+                </button>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle border-0 btn-focus1 text-black focus-btn1" type="button"
+                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="ri-user-line"></i>Account
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Cancel ticket</a></li>
+                        <li><a class="dropdown-item" href="#">Change traveldate</a></li>
+                        <li><a class="dropdown-item" href="#">Cancel ticket</a></li>
+                        <li><a class="dropdown-item" href="#">Email/Sms</a></li>
+                        <li><a class="dropdown-item" href="#">Sign In/Login</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+    <!-- end of nav -->
+    <!-- input Search -->
+    <div class="backimage mt-3">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6">
+                <div class="card border-danger  card-height d-flex">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex borderright">
+                            <i class="ri-bus-line"></i>
+                            <label for="name"></label>
+                            <input type="text" class="form-control focus-0 border-0 focus-btn1" id="examplename"
+                                placeholder="From">
+
+
+                        </div>
+
+                        <div class="d-flex borderright">
+                            <i class="ri-bus-line"></i>
+                            <label for="name"></label>
+                            <input type="text" class="form-control border-0 focus-btn1" id="examplename" placeholder="To">
+                        </div>
+                        <div class="d-flex border-0">
+                            <i class="ri-calendar-line"></i>
+                            <label for="name"></label>
+                            <input type="date" class="form-control border-0 focus-btn1" id="examplename" placeholder="Date">
+                        </div>
+                        <hr>
+                        <div>
+                            <button class="bg-color1 border-0 ms-auto">Search bus</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+    <!-- end input search  -->
+    <!-- card iamges -->
+    <div class="container ">
+        <div class="card position">
+            <h4><a href=thirdpage.html>Trending Offers</a></h4>
+            <!-- curosal -->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-3 rounded">
+                            <div class="card background">
+                                <div class="d-flex gap-3 ">
+                                    <img src="./imgesall/redbull.png" class="img-circle">
+        
+                                    <div>
+                                        <p>Buses</p>
+                                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                                        <p>Valid till 31 Aug</p>
+                                        <P class="border-dashed">Flat 50% </P>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="col-3 rounded">
+                            <div class="card background3">
+                                <div class="d-flex gap-3 ">
+                                    <img src="./imgesall/tile-80X80.png" class="img-circle">
+        
+                                    <div>
+                                        <p>Buses</p>
+                                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                                        <p>Valid till 31 Aug</p>
+                                        <P class="border-dashed">Flat 50% </P>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="col-3 rounded">
+                            <div class="card background12">
+                                <div class="d-flex gap-3 ">
+                                    <img src="./imgesall/frredom.png" class="img-circle">
+        
+                                    <div>
+                                        <p>Buses</p>
+                                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                                        <p>Valid till 31 Aug</p>
+                                        <P class="border-dashed">Flat 50% </P>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="col-3 rounded ">
+                            <div class="card background2">
+                                <div class="d-flex gap-3 ">
+                                    <img src="./imgesall/redbull.png" class="img-circle">
+        
+                                    <div>
+                                        <p>Buses</p>
+                                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                                        <p>Valid till 31 Aug</p>
+                                        <P class="border-dashed">Flat 50% </P>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+        
+        
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3 rounded">
+                            <div class="card background">
+                                <div class="d-flex gap-3 ">
+                                    <img src="./imgesall/redbull.png" class="img-circle">
+        
+                                    <div>
+                                        <p>Buses</p>
+                                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                                        <p>Valid till 31 Aug</p>
+                                        <P class="border-dashed">Flat 50% </P>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="col-3 rounded">
+                            <div class="card background3">
+                                <div class="d-flex gap-3 ">
+                                    <img src="./imgesall/tile-80X80.png" class="img-circle">
+        
+                                    <div>
+                                        <p>Buses</p>
+                                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                                        <p>Valid till 31 Aug</p>
+                                        <P class="border-dashed">Flat 50% </P>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="col-3 rounded">
+                            <div class="card background12">
+                                <div class="d-flex gap-3 ">
+                                    <img src="./imgesall/frredom.png" class="img-circle">
+        
+                                    <div>
+                                        <p>Buses</p>
+                                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                                        <p>Valid till 31 Aug</p>
+                                        <P class="border-dashed">Flat 50% </P>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="col-3 rounded ">
+                            <div class="card background2">
+                                <div class="d-flex gap-3 ">
+                                    <img src="./imgesall/redbull.png" class="img-circle">
+        
+                                    <div>
+                                        <p>Buses</p>
+                                        <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                                        <p>Valid till 31 Aug</p>
+                                        <P class="border-dashed">Flat 50% </P>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+        
+        
+                    </div>
+                    
+                  </div>
+                 
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                  </span>
+                
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  
+                </a>
+              </div>
+        </div>
+    </div>
+    <!-- curosal end -->
+    <!-- normal iamge -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col mb-5">
+                <img src="./imgesall/6504ffea-79fa-4da8-9712-3006546fab75.jpeg" class="w-100 rounded-5">
+            </div>
+
+        </div>
+    </div>
+    <!-- stast of tabs-->
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="font">NOW, GET MORE THAN JUST BUS TICKETS WITH REDBUS!</h2>
+                <div>
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active border-0" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Car rentals</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Train tickets</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <h6 class="text-muted"> Rent Cabs, Tempo Travellers & Buses with best drivers</h6>
+                            <div class="d-flex justify-content-between ">
+                                <div class="lineheight mt-3">
+                                    <div class="d-flex gap-5  align-items-center">
+                                        <img src="./imgesall/ryde_car.svg">
+                                        <p class="">Outstation</p>
+                                    </div>
+                                    <div class="d-flex gap-5  align-items-center">
+                                        <img src="./imgesall/ryde_car_hourly.svg">
+                                        <p class="">Hourly Rental</p>
+                                    </div>
+                                    <div class="d-flex gap-5  align-items-center">
+                                        <img src="./imgesall/ryde_airport_transport.svg">
+                                        <p>Airport Transfers</p>
+                                    </div>
+                                    <button class="border-0 text-white bg-col mt-5">Book cab/Bus rental <i class="ri-arrow-right-line"></i></button>
+                                </div>
+                                <div>
+                                    <img src="./imgesall/rydePop.svg" class="cars-side">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <h6 class="text-muted"> Book IRCTC Train Tickets on redRail simple & superfast booking<br>
+                                process with no service fee + no payment gateway charge.</h6>
+                            <div class="d-flex justify-content-between ">
+                                <div class="lineheight mt-3">
+                                    <div class="d-flex gap-5">
+                                        <img src="./imgesall/RAIL1.svg">
+                                        <p>Authorised IRCTC Partner</p>
+                                    </div>
+                                    <div class="d-flex gap-5">
+                                        <img src="./imgesall/RAIL2.svg">
+                                        <p>Instant refunds on UPI payments</p>
+                                    </div>
+                                    <div class="d-flex gap-5">
+                                        <img src="./imgesall/RAIL3.svg">
+                                        <p class="gap-3">Hassle- free customer support</p>
+                                    </div>
+                                    <button class="border-0 text-white bg-col mt-5">Book cab/Bus rental <i class="ri-arrow-right-line"></i></button>
+                                </div>
+                                <div>
+                                    <img src="./imgesall/railPop.svg" class="cars-side">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="bgimg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <end of tabs -->
+        <!-- cards-->
+    <div class="container mt-5">
+        <div class="card bg-color">
+            <h4 class="text-white">ENJOY THE APP!</h4>
+            <div class="row w-100 height">
+                <div class="col-4">
+                    <div class="card borderradius">
+                        <div class="padding">
+                            <div class="d-flex flexcolom ">
+                                <img src="./imgesall/tick.svg">
+                                <p class="text-muted">Quick access</p>
+                            </div>
+                            <div class="d-flex flexcolom ">
+                                <img src="./imgesall/tick.svg">
+                                <p class="text-muted">Superior live tracking</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-around">
+                            <div class="p-2">
+                                <h6 class="text-muted">4.5 Rating</h6>
+                                <p class="text-muted">50M+ downloads</p>
+                                <p>Play Store</p>
+                            </div>
+                            <div  class="borderleft">
+                                <h6 class="text-muted">4.6 Rating</h6>
+                                <p class="text-muted">50M+ downloads</p>
+                                <p>Play Store</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card borderradius">
+                        <div class="padding">
+                            <div class="d-flex flexcolom ">
+                                <img src="./imgesall/tick.svg">
+                                <p class="text-muted">Quick access</p>
+                            </div>
+                            <div class="d-flex flexcolom">
+                                <img src="./imgesall/tick.svg">
+                                <p class="text-muted">Superior live tracking</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-around">
+                            <div class="p-2">
+                                <h6 class="text-muted">4.5 Rating</h6>
+                                <p class="text-muted">50M+ downloads</p>
+                                <p>Play Store</p>
+                            </div>
+                            <div class="borderleft">
+                                <h6 class="text-muted">4.6 Rating</h6>
+                                <p class="text-muted">50M+ downloads</p>
+                                <p>Play Store</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card end  -->
+   
+    <div class="container mt-5 mb-3">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6">
+                <img src="./imgesall/primoTopBanner.svg">
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>
+
+
+    </div>
+     <!-- discount cards start  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card background1">
+                    <div class="d-flex  gap-3">
+                        <img src="./imgesall/primoSubImg1.svg" class="img-circle">
+
+                        <div>
+                            <p>Buses</p>
+                            <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                            <p>Valid till 31 Aug</p>
+                            <P class="border-dashed">Flat 50% </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card background1">
+                    <div class="d-flex  gap-3">
+                        <img src="./imgesall/primoSubImg2.svg" class="img-circle">
+
+                        <div>
+                            <p>Buses</p>
+                            <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                            <p>Valid till 31 Aug</p>
+                            <P class="border-dashed">Flat 50% </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card background1">
+                    <div class="d-flex gap-3">
+                        <img src="./imgesall/primoSubImg3.svg" class="img-circle">
+
+                        <div>
+                            <p>Buses</p>
+                            <h6>Get 50% instant <br>discount upto Rs 50</h6>
+                            <p>Valid till 31 Aug</p>
+                            <P class="border-dashed">Flat 50% </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  discount card end of another div -->
+    <!-- rtc div  -->
+    <div class="container mt-5">
+        <h2>PARTNERED WITH</h2>
+        <div class="d-flex justify-content-between mt-3">
+            <h3>25 RTC'S</h3>
+            <button class="btn">View all</button>
+        </div>
+        <div class="rtc d-flex mt-5">
+            <div><img src="./imgesall/ap.png" class="img-fluid w-100">
+                <p class="p-4 hover">APRTC</p>
+            </div>
+            <div><img src="./imgesall/GSRTC.svg" class="img-fluid w-100">
+                <p class="p-4 hover">GSRTC</p>
+            </div>
+            <div><img src="./imgesall/16426.png" class="img-fluid w-100">
+                <p class="p-4 hover">TNRTC</p>
+            </div>
+            <div><img src="./imgesall/KERALA-RTC.svg" class="img-fluid w-100">
+                <p class="p-4 hover">KRTC</p>
+            </div>
+            <div><img src="./imgesall/ap.png" class="img-fluid w-100">
+                <p class="p-4 hover">MSRTC</p>
+            </div>
+            <div><img src="./imgesall/TSRTC.png" class="img-fluid w-75">
+                <p class="p-4 hover">TSRTC</p>
+            </div>
+            <div><img src="./imgesall/UPSRTC.svg" class="img-fluid w-100">
+                <p class="p-4 hover">UPRTC</p>
+            </div>
+            <div><img src="./imgesall/ap.png" class="img-fluid w-100">
+                <p class="p-4 hover">APRTC</p>
+            </div>
+
+
+
+        </div>
+        <!-- rtc div end  -->
+        <!-- diifenrt travels start  -->
+        <div class="d-flex justify-content-between mt-3">
+            <h3>200 Private Bus Operators</h3>
+            <button class="btn">View all</button>
+        </div>
+        <div class="d-flex justify-content-between linth">
+            <div class="row">
+                <div class="col-2">
+                    <ul>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <ul>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <ul>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                        <li>
+                            <button class="btn hover">SRS TRAVELS</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- diff travels end  -->
+<!-- flgs of diff country start  -->
+        <div class="container mt-5">
+            <h3>GLOBAL PRESENCE</h3>
+            <div class="row">
+                <div class="col-2">
+                    <img src="./imgesall/India.svg">
+                    <p class="p-4">India</p>
+                </div>
+                <div class="col-2">
+                    <img src="./imgesall/Indonesia.svg">
+                    <p class="p-4">Indonesia</p>
+                </div>
+                <div class="col-2">
+                    <img src="./imgesall/Colombia.svg">
+                    <p class="p-4">Colombia</p>
+                </div>
+                <div class="col-2">
+                    <img src="./imgesall/Malaysia.svg">
+                    <p class="p-4">Malayasia</p>
+                </div>
+                <div class="col-2">
+                    <img src="./imgesall/Peru.svg">
+                    <p class="p-4">Peru</p>
+                </div>
+                <div class="col-2">
+                    <img src="./imgesall/Singapore.svg">
+                    <p class="p-4 color-dark">Singapore</p>
+                </div>
+        </div>
+        </div>
+        <!-- flgs of diff country end  -->
+        
+       
+</body>
+
+</html>

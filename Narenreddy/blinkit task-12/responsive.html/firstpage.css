@@ -1,0 +1,9 @@
+body{
+    font-family: 'Poppins', sans-serif;
+ }
+ .form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    outline-color: white !important;
+ }
+ 

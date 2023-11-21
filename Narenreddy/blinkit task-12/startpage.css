@@ -1,0 +1,29 @@
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
+ .position{
+    float: left;
+ }
+ .scroll{
+   overflow: hidden;
+   }
+   .fontsize{
+      font-size: 14px;
+   }
+
+ .carousel-control-prev-icon{
+position: absolute;
+left: 0px;
+    background-color: grey;
+       width: 24px;
+       border-radius: 50%;
+       height: 24px;
+ }
+ .carousel-control-next-icon{
+   position: absolute;
+   left: 162px;
+   background-color: grey;
+       width: 24px;
+       border-radius: 50%;
+       height: 24px;
+ }

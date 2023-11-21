@@ -1,0 +1,191 @@
+body{
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+.img1{
+    height: 60px;
+    width: 78%;
+}
+ .main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #Ffffff;
+    align-items: center;
+}
+    .dashboard{
+        display: flex;
+        position: relative;
+        right: 300px;
+        border: none;
+    }
+    .button11{
+        border: none;
+        padding: 15px 20px 13px 19px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 19px;
+    }
+    .button2{
+        /* border: none;
+        background-color:#75C250;
+        color: #Ffffff; */
+        padding: 6px 28px;
+    background-color: rgb(0, 167, 78);
+    border: none; 
+    border-radius: 3px;
+    color: white;
+    font-size: 19px;
+    }
+    .button3{
+        border: none;
+        padding: 15px 20px 13px 19px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 19px;
+    }
+    .addlogo{
+        display: flex;
+    }
+    .searchlogo{
+        display: flex;
+        position: relative;
+    right: 180px;
+    top: 20px;
+}
+    .booking{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ri-add-circle-line{
+        margin-top: 19px;
+    margin-bottom: 18px;
+    font-size: 28px;
+    color: white;
+    margin-left: 10px;
+    background-color: #00a74e;
+    }
+    .ri-search-line{
+    margin-bottom: 34px;
+    font-size: 28px;
+    color: white;
+    background-color: #00a74e;
+    
+    }
+    .search{
+        height: 32px;
+        width: 100%;
+        padding: 9px 147px 10px 1px;
+        border: 1px solid rgb(217,217,224);
+    color: rgb(217,217,224);
+    }
+    table{
+        /* border: none; */
+        text-align: center;
+        border: 1px solid #c1c1c1;
+        border-collapse: collapse;
+        padding: 8px 11px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+
+    }
+  
+
+    /* .confirmed{
+        /* background-color: red;
+        color: white; */
+        /* position: sticky;
+    right: 165px;
+    z-index: 1;
+    background: #b95050;
+    }
+    .sucess{
+        background-color:#00a74e ;
+        color: white;
+        position: sticky;
+    right: 165px;
+    z-index: 1;
+    background: #b95050;
+    } */ */
+    
+    
+    .reservation{
+        position: sticky;
+        z-index: 10;
+        right: 237px;
+        background: white;
+    }
+    .sticky-header2{
+        position: sticky;
+       
+        z-index: 10;
+        right: 0px;
+        background-color: #Ffffff;
+    }
+    .sticky-header1{
+        position: sticky;
+    
+        z-index: 10;
+        right: 90px;
+        background-color: #Ffffff;
+    }
+    th,td{
+        border-bottom: 2px solid #c1c1c1;
+        padding: 8px 11px;
+    }
+
+    th:nth-last-child(-n + 3) {
+        background-color: white;
+        right: 230px;
+        position: sticky;
+        z-index: 11;
+    }
+    th:nth-last-child(-n + 2) {
+        background-color: white;
+        right: 90px;
+        position: sticky;
+        z-index: 11;
+    }
+    th:nth-last-child(-n + 1) {
+        background-color: white;
+        right: 0;
+        position: sticky;
+        z-index: 11;
+    }
+
+
+    td:nth-last-child(-n + 3) {
+        background-color: white;
+        right: 230px;
+        position: sticky;
+        z-index: 11;
+    }
+    td:nth-last-child(-n + 2) {
+        background-color: white;
+        right: 90px;
+        position: sticky;
+        z-index: 11;
+    }
+    td:nth-last-child(-n + 1) {
+        background-color: white;
+        right: 0;
+        position: sticky;
+        z-index: 11;
+    }
+    .color{
+        background-color: #E52A43;
+        border-radius: 5px;
+        color: white;
+        font-size: 12px;
+    }
+    .sucess{
+        background-color: #00A649;
+        border-radius: 5px;
+        color: white;
+        font-size: 12px;
+    }
+    .button4{
+        padding: 9px 58px 9px 74px;
+    font-size: 15px;
+    }
+   

@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.btn-default1 {
+
+    border: 1px solid darkgray;
+    padding: 10px;
+
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    height: 50px;
+    background-color: white !important;
+
+}
+
+.ri-search-line {
+
+    font-size: 19px;
+    background-color: #ff385c;
+    color: white;
+    border-radius: 12px;
+}
+
+.sticky {
+    z-index: 10;
+    background: white;
+}
+
+.stickybutton {
+
+    background-color: black;
+    color: white;
+    padding: 10px 28px 10px 28px;
+}
+
+.lineheight {
+    line-height: 10px;
+}
+
+.upperbutton {
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: lightgrey;
+    width: fit-content;
+    height: fit-content;
+}
+
+.color {
+    color: white;
+}
+
+.ri-global-line:before {
+    font-size: 25px;
+}
+
+p {
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.bt-side {
+    background-color: grey;
+    border-radius: 20px;
+    margin: 10px 0px 45px 50px;
+}
+
+.bt-side1 {
+    position: relative;
+    right: 122px;
+    background-color: grey;
+    bottom: 20px;
+    border-radius: 20px;
+}
+
+.form-switch {
+    font-size: 30px;
+    
+    border: none;
+}
+
+
+
+
+.carousel-control-next-icon:hover {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.carousel-control-prev-icon:hover {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.d-block {
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bordercheckbox {
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding: 6px 0px 0px 6px;
+}
+.borderright{
+    padding: 0px 18px 0px 18px;
+}

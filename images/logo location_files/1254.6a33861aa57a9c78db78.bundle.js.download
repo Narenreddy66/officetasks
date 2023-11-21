@@ -1,0 +1,2 @@
+(this.webpackJsonp=this.webpackJsonp||[]).push([[1254],{k3gB:function(n,e,r){"use strict";function t(){return new Worker(r.p+"editor_canvas.b6ccc717fbddb90e0258.worker.js")}r.r(e),r.d(e,"default",(function(){return t}))}}]);
+//# sourceMappingURL=1254.6a33861aa57a9c78db78.bundle.js.map

@@ -1,0 +1,207 @@
+.mainchef {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.img1 {
+    height: 89px;
+    width: 119px;
+    margin-left: 110px;
+}
+
+li {
+    display: inline;
+    padding: 50px;
+
+}
+
+a {
+    color: black;
+}
+
+.nan {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    line-height: 12px;
+    align-items: center;
+    padding: 10px 100px 10px 100px;
+}
+
+.naru{
+    color: white;
+    
+    margin: 9px 0px 10px -275px;
+}
+
+.naren {
+    color: white;
+    /* margin: 0px 0px 4px 69px */
+
+}
+.fa{
+    margin: 10px;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.m-0{
+    margin: 0;
+}
+.button {
+    border-radius: 5px;
+    /* margin: 34px 246px 0px 0px; */
+    padding: 8px;
+    background-color: #333A40;
+    border: 1px solid black;
+    height: 39px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+}
+
+.myoder {
+    color: black;
+}
+
+.mybookings {
+    color: black;
+    padding: 0px 69px;
+}
+
+.biryani1 {
+
+    box-shadow: 0px 0px 5px 3px #00000059;
+    height: 210px;
+    width: 70%;
+    margin-left: 236px;
+    /* display: flex;  */
+}
+
+.img2 {
+    height: 104px;
+    width: 118px;
+    margin: 10px;
+}
+
+.name {
+    color: black;
+}
+
+.prof {
+    color: #a6a6a6;
+}
+
+.oderno {
+    color: #a6a6a6;
+    margin: 5px;
+}
+
+.date {
+    color: black;
+}
+
+.del {
+    color: palevioletred;
+    margin: 68px 10px;
+}
+
+.div3 {
+    margin-left: 300px;
+}
+
+.div1 {
+    display: flex;
+}
+
+.line {
+
+    margin: -53px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.paid {
+    display: flex;
+    justify-content: space-between;
+    margin: 56px 513px 0px 158px;
+
+}
+
+.button2 {
+    margin: 3px 0px 0px 13px;
+    background-color: #007CF9;
+    padding: 8px 17px 7px 17px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.total {
+    margin: 2px;
+}
+
+.biryani2 {
+
+    box-shadow: 0px 0px 5px 3px #00000059;
+    height: 210px;
+    width: 70%;
+    margin-left: 236px;
+}
+
+.div30 {
+    margin-left: 300px;
+}
+
+.div10 {
+    display: flex;
+}
+
+.nenu {
+    margin-top: 30px;
+}
+
+.del2 {
+    color: #62D82C;
+    margin: 68px 10px;
+}
+
+.button3 {
+
+    margin: 3px 0px 0px 13px;
+    background-color: #007CF9;
+    padding: 8px 17px 7px 17px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.button10 {
+    margin: 3px 0px 0px 13px;
+    background-color: #007CF9;
+    padding: 8px 17px 7px 17px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.button20 {
+    margin: 3px 0px 0px 13px;
+    background-color: #007CF9;
+    padding: 8px 17px 7px 17px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+u{
+    text-decoration-color: #007CF9;
+}
+    

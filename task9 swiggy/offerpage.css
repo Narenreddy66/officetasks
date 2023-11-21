@@ -1,0 +1,201 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img1 {
+    height: 69px;
+    width: 127px;
+}
+
+.logoheader {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.leftheader {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ri-arrow-drop-down-line:before {
+    content: "\ea4d";
+    font-size: 30px;
+    margin: 0px 1px 0px 1px;
+    position: relative;
+    top: 20px;
+    color: orange;
+}
+
+.ri-navigation-line:before {
+    content: "\eed6";
+    font-size: 30px;
+    margin: 0px 11px 0px 11px;
+    position: relative;
+    top: 20px;
+    color: orange;
+}
+h3{
+    margin: 19px 0px 0px 2px;
+}
+.text{
+    
+        padding: 0px 156px 0px 2px;
+        height: 35px;
+        width: 40%;
+        border-radius:10px;
+        border: 1px solid rgb(217, 217, 224);
+    }
+    .ri-user-fill:before {
+        content: "\f14f";
+        font-size: 30px;
+        position: relative;
+        top: 9px;
+    }
+    .line{
+        color: rgb(217, 217, 224);
+    }
+.button{
+    border: 1px solid rgb(217, 217, 224);
+    border-radius: 40px;
+    padding: 10px 10px 11px 11px;
+    margin-top: 20px;
+}
+.headerdown{
+    margin-left: 118px;
+}
+.justify-content-space-even{
+    justify-content: space-evenly;
+}
+.card{
+    width: 313px;
+    height: 377px;
+    transition: width 3s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.justify-content-space-btw{
+    justify-content: space-between;
+    font-size: 11px;
+}
+.w-100{
+    
+    width: 81%;
+    height: 65%;
+    margin-top: 35px;
+}
+
+.fa-star-o{
+padding: 0;
+color: white;
+}
+.align-center{
+    align-items: center;
+}
+.star{
+    background: orange;
+   color: white;
+    padding: 0 8px 0 8px;
+}
+.m-0{
+    margin: 0;
+    font-size: 15px;
+}
+.card{
+    width: 313px;
+    height: 377px;
+    transition: width 3s;
+}
+.card:hover{
+    transform: scale(1.0);
+}
+.justify-content-space-even{
+    justify-content: space-evenly;
+}
+.star1{
+    background: #48C479;
+   color: white;
+    padding: 0 8px 0 8px;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: #171a29;
+    color: #F5F5F5;
+}
+.footer{
+    display:flex ;
+    justify-content: space-evenly;
+    line-height: 35px;
+}
+.d-flex{
+    display: flex;
+    /* justify-content: space-between; */
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+.button1{
+     
+        height:50PX;
+        width: 239px;
+        position: relative;
+        left: 770px;
+        top: 50px;
+        border: 1px solid rgb(217, 217, 224);
+        border-radius: 10px;
+    
+}
+.line2{
+    margin-top: 77px;
+}
+.button3{
+     
+    height: 50PX;
+    width: 286px;
+    position: relative;
+    left: 26px;
+    top: 0px;
+    border: 1px solid rgb(217, 217, 224);
+    border-radius: 10px;
+
+    margin-left: 77px;
+    margin-bottom: 18px;
+}
+h2{
+    margin-left: 105px;
+}
+.playstorelogo{
+    background-color: rgb(240, 240, 245);
+    display: flex;
+    justify-content: space-evenly;
+}
+.img2{
+    height: 111px;
+
+}
+.img3{
+    height: 155px;
+    margin: -23px;
+}
+.blackcolor{
+    color: gray;
+}

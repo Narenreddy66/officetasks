@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    text-align: center;
+    height: 100px;width: 200px;
+    border: 2px solid hsl(293, 62%, 54%);
+    background-color: aliceblue;
+    background-image:url(./new\ iamage\ .jpg);
+    background-position: right top;
+    
+}
+body{
+    background-color: linen;
+    background-image: url(./new\ iamage\ .jpg);
+    background-position:right bottom;
+}
+
+    

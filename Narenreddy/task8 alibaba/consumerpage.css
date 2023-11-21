@@ -1,0 +1,138 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif !important;
+    cursor: pointer;
+}
+input[type="search"]:focus-visible,
+input[type="search"]:focus-visible {
+outline: none !important;
+}
+.input-btn {
+    border: 3px solid orangered;
+    border-radius: 20px;
+}
+.btn-default {
+    border: 3px solid orangered;
+    background-color: orangered;
+}
+.img1 {
+    height: 22px;
+    width: 38%;
+}
+.bg-color {
+    background-color: grey;
+    width: 100%;
+    height: 228px;
+}
+.textposition {
+    position: relative;
+    top: 35px;
+}
+.containerposition {
+    position: relative;
+    bottom: 117px;
+}
+.positionbottom {
+    position: relative;
+    bottom: 100px;
+}
+.positionbottom1 {
+    position: relative;
+    bottom: 80px;
+}
+.text-muted {
+    font-size: 15px;
+}
+.centered {
+    position: absolute;
+    top: 34%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+.bottom-left {
+    position: absolute;
+    bottom: 26px;
+    left: 16px;
+}
+.bottom-left1 {
+    position: absolute;
+    bottom: 26px;
+    left: 155px;
+}
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-img {
+        height: 250px;
+    width: 99%;
+    text-align: center;
+    background-color: #333;}
+.textalign {
+    text-align: center;
+    display: flex;
+}
+.margin-top {
+    margin: -49px;
+}
+.carousel-inner {
+    /* position: relative; */
+    width: 94%;
+    overflow: hidden;
+    height: 345px;
+}
+.sideiamge {
+    height: 69px;
+    width: 30%;
+}
+.sidecoloum {
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100%;
+    justify-content: space-between;
+}
+.change {
+    background-color: orange;
+}
+.img12 {
+    height: 50px;
+    width: 40%;
+    background-color: red
+}
+.card {
+    background-color: #f4f4f4;
+    border: none;
+}
+.img123 {
+    height: 112px;
+    width: 100%;
+}
+.marginleft {
+    margin-left: 60px;
+}
+.img1234 {
+    height: 188px;
+    width: 100%;
+}
+.hovercolor:hover {
+    color: orangered;
+}
+.carousel-control-prev-icon {
+    position: relative;
+    bottom: 59px;
+    background-color: orange;
+}
+.carousel-control-next-icon {
+    position: relative;
+    bottom: 59px;
+    background-color: orange;
+}
+.textstyle {
+    list-style: none;
+    white-space: nowrap;
+    align-items: baseline;
+    gap: 20px;
+}
+.textstyle:hover{
+    color: orangered;
+}

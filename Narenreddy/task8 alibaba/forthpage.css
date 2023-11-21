@@ -1,0 +1,118 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif !important;
+    cursor: pointer;
+}
+.dolar{
+  font-size: 50px;
+}
+li {
+    list-style: none;
+}
+.fsize{
+  font-size: 14px;
+}
+li:hover {
+    color: orangered;
+}
+.dropdown:hover {
+    color: orangered;
+}
+.hovertext{
+  padding: 0px 10px;
+}
+.hovertext:hover {
+    color: orangered;
+}
+.fontsiz{
+  font-size: 30px;
+}
+.backgroundiamge {
+    background-image: url(./background\ image2.jpg.jpg);
+    height: 680px;
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.btn-default {
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    padding: 11px 54px 11px 54px;
+}
+.bg-color {
+    background-color: #ffc200;
+    height: 400px;
+    width: 100%;
+    padding: 74px 0 77px 0;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .fontsize{
+    font-size: 20px;
+  }
+  .backgroundiamge1{
+    background-image: url(./backgroundimg3.svg);
+    height: 500px;
+    width: 100%;
+  }
+  .lineheight{
+    line-height: 225px;
+    font-size: 50px;
+  }
+  .ri-money-cny-circle-fill{
+    font-size: 50px;
+    background-color: white;
+  }
+  .hovercolor:hover{
+color: orangered;
+  }
+  .btn-default1 {
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    padding: 11px 54px 11px 54px;
+}
+.btn-default2 {
+  border: none;
+  border-radius: 20px;
+  color:black;
+  padding: 11px 54px 11px 54px;
+}
+.btn-default2:hover{
+  background-color: orangered;
+}
+.backgroundiamge2{
+  background-image: url(./backgroundimg3.svg);
+  height: 850px;
+  width: 100%;
+}
+.backgroundiamge4{
+  background-color: #1c0c05;
+  height: 270px;
+  width: 100%;
+}
+.bgcolor1{
+  border: 1px solid #413732 !important ;
+  background-color: #362c27 !important;
+}
+.hovercolor1:hover{
+  color: orangered !important;
+}
+.numcolor{
+  border: 1px solid #fee79a;
+    background-color: #fee79a;
+    border-radius: 20px;
+    padding: 3px;
+    margin-right: 20px;
+}
+.pad{
+  margin-left: 56px;
+}

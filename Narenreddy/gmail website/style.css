@@ -1,0 +1,119 @@
+body {
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif !important;
+}
+
+.ri-equalizer-line {
+    border-left: none !important;
+}
+
+.focus1:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: none !important;
+}
+
+.ri-settings-2-line:before {
+    font-size: 25px;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.bg-im {
+    background-color: #c2e7ff;
+}
+
+.border-bottom {
+    border-bottom: 2px solid blue !important;
+}
+
+
+
+.nav-pills .border-bottom.active {
+    background-color: transparent !important;
+    color: blue !important;
+    border-bottom: 3px solid #0b57d0 !important;
+    border-radius: 0px;
+}
+
+.nav-pills .bg-color.active {
+    background-color: #a8c7fa !important;
+    color: #0b57d0 !important;
+}
+
+.bg-color {
+    color: black;
+}
+
+td {
+    font-size: 15px !important;
+
+
+
+
+}
+
+.nav-pills .bg-color:hover {
+    background-color: #dadce0;
+}
+
+.positionaboutsidebar {
+    position: sticky !important;
+    top: 137px !important;
+    left: 0px !important;
+    font-size: 14px;
+    z-index: 101;
+
+}
+
+.line-height {
+    line-height: 1px !important;
+    background-color: ghostwhite;
+    /* margin-top: 10px; */
+}
+
+.positionleft {
+    position: fixed;
+    top: 68px;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
+.positionrelative {
+    position: relative;
+    top: 35px;
+    background-color: white;
+
+
+
+
+
+}
+
+.naren {
+    position: relative;
+    z-index: 1000;
+    flex-wrap: nowrap;
+}
+
+tr:hover {
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    z-index: 1;
+
+}
+
+.reddy {
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    right: 0px;
+}
+
+tr:hover .reddy {
+    visibility: visible;
+    position: absolute;
+    background-color: white;
+    right: 0px;
+}
